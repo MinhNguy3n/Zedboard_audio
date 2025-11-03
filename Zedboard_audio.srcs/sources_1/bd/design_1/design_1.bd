@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xC3282C3F86F5E4AB",
+      "boundary_crc": "0x6953D401CDD7BC29",
       "device": "xc7z020clg484-1",
       "gen_directory": "../../../../Zedboard_audio.gen/sources_1/bd/design_1",
       "name": "design_1",
@@ -59,6 +59,12 @@
         "direction": "I"
       },
       "adau_bclk": {
+        "direction": "I"
+      },
+      "adau_dac_in": {
+        "direction": "O"
+      },
+      "adau_adc_out": {
         "direction": "I"
       }
     },
@@ -1366,6 +1372,12 @@
           "xlconcat_0/In2"
         ]
       },
+      "i2s_transmitter_0_sdata_0_out": {
+        "ports": [
+          "i2s_transmitter_0/sdata_0_out",
+          "adau_dac_in"
+        ]
+      },
       "lrclk_in_0_1": {
         "ports": [
           "adau_lrclk",
@@ -1434,6 +1446,12 @@
           "adau_bclk",
           "i2s_receiver_0/sclk_in",
           "i2s_transmitter_0/sclk_in"
+        ]
+      },
+      "sdata_0_in_0_1": {
+        "ports": [
+          "adau_adc_out",
+          "i2s_receiver_0/sdata_0_in"
         ]
       },
       "sys_clock_1": {
