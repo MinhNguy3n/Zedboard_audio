@@ -1,3 +1,6 @@
 *.log
 *.jou
-.cache/
+*.rpt
+Zedboard_audio*.runs/*
+Zedboard_audio*.gen/*
+Zedboard_audio*.cache/*

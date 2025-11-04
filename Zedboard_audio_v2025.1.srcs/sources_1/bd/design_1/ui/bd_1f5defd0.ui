@@ -1,0 +1,156 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Addressing View_Layers":"/processing_system7_0_FCLK_CLK0:false|/clk_wiz_0_clk_out1:false|/axi_iic_0_iic2intc_irpt:false|/proc_sys_reset_1_peripheral_reset:false|/proc_sys_reset_0_peripheral_reset:false|/audio_formatter_0_irq_s2mm:false|/processing_system7_0_FCLK_RESET0_N:false|/i2s_receiver_0_irq:false|/audio_formatter_0_irq_mm2s:false|/rst_clk_wiz_0_48M_peripheral_aresetn:false|/i2s_transmitter_0_irq:false|/clk_wiz_0_clk_out2:false|",
+   "Addressing View_ScaleFactor":"0.732794",
+   "Addressing View_TopLeft":"-141,-344",
+   "Clocking and Reset View_Layers":"/i2s_receiver_0_irq:false|/audio_formatter_0_irq_mm2s:false|/axi_iic_0_iic2intc_irpt:false|/i2s_transmitter_0_irq:false|/audio_formatter_0_irq_s2mm:false|/processing_system7_0_FCLK_CLK0:true|/clk_wiz_0_clk_out1:true|/clk_wiz_0_clk_out2:true|/processing_system7_0_FCLK_RESET0_N:true|/rst_clk_wiz_0_48M_peripheral_aresetn:true|/proc_sys_reset_1_peripheral_reset:true|/proc_sys_reset_0_peripheral_reset:true|",
+   "Clocking and Reset View_ScaleFactor":"2.75269",
+   "Clocking and Reset View_TopLeft":"-206,-70",
+   "Color Coded_ExpandedHierarchyInLayout":"",
+   "Color Coded_Layout":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port iic_rtl -pg 1 -lvl 10 -x 3280 -y 20 -defaultsOSRD
+preplace port IIC_0 -pg 1 -lvl 10 -x 3280 -y 660 -defaultsOSRD
+preplace port port-id_adau_lrclk -pg 1 -lvl 0 -x 0 -y 50 -defaultsOSRD
+preplace port port-id_adau_bclk -pg 1 -lvl 0 -x 0 -y 510 -defaultsOSRD
+preplace port port-id_adau_dac_in -pg 1 -lvl 10 -x 3280 -y 450 -defaultsOSRD
+preplace port port-id_adau_adc_out -pg 1 -lvl 0 -x 0 -y 530 -defaultsOSRD
+preplace portBus gpo_0 -pg 1 -lvl 10 -x 3280 -y 700 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 7 -x 2350 -y 170 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 470 -y 200 -swap {1 0 3 2 4} -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 200 -y 210 -defaultsOSRD
+preplace inst audio_formatter_0 -pg 1 -lvl 5 -x 1500 -y 450 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 8 -x 2750 -y 500 -defaultsOSRD
+preplace inst rst_clk_wiz_0_48M -pg 1 -lvl 3 -x 760 -y 160 -swap {3 0 2 4 1 5 6 7 8 9} -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 6 -x 1910 -y 150 -defaultsOSRD
+preplace inst proc_sys_reset_1 -pg 1 -lvl 3 -x 760 -y 380 -swap {0 1 2 3 4 5 6 9 7 8} -defaultsOSRD
+preplace inst i2s_receiver_0 -pg 1 -lvl 4 -x 1140 -y 440 -defaultsOSRD
+preplace inst i2s_transmitter_0 -pg 1 -lvl 9 -x 3120 -y 440 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 6 -x 1910 -y 500 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 9 -x 3120 -y 680 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 8 30 310 380 280 580J 260 NJ 260 NJ 260 1690J 310 NJ 310 2590
+preplace netloc proc_sys_reset_0_peripheral_reset 1 1 2 370 120 N
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 8 20 320 NJ 320 590 280 NJ 280 NJ 280 1680J 320 NJ 320 2580
+preplace netloc clk_wiz_0_clk_out1 1 2 7 590 60 980 290 1310 290 1730 300 2120 300 2600 390 2960
+preplace netloc clk_wiz_0_clk_out2 1 2 7 570 270 940 620 1300 620 1730J 400 NJ 400 NJ 400 2940J
+preplace netloc clk_wiz_0_locked 1 2 1 560 140n
+preplace netloc rst_clk_wiz_0_48M_peripheral_aresetn 1 3 6 970 590 1320 640 1720 390 NJ 390 2580 410 2930
+preplace netloc proc_sys_reset_1_peripheral_reset 1 3 6 930 600 1330 660 NJ 660 NJ 660 NJ 660 2910J
+preplace netloc lrclk_in_0_1 1 0 9 NJ 50 NJ 50 NJ 50 950 650 NJ 650 NJ 650 NJ 650 NJ 650 2940
+preplace netloc sclk_in_0_1 1 0 9 NJ 510 NJ 510 NJ 510 960 670 NJ 670 NJ 670 NJ 670 NJ 670 2980
+preplace netloc xlconcat_0_dout 1 6 1 2060 210n
+preplace netloc i2s_transmitter_0_irq 1 5 5 1760 620 2070J 600 NJ 600 2950J 590 3260
+preplace netloc audio_formatter_0_irq_mm2s 1 5 1 1660 470n
+preplace netloc i2s_receiver_0_irq 1 4 2 1290J 630 1740
+preplace netloc audio_formatter_0_irq_s2mm 1 5 1 1660 490n
+preplace netloc i2s_transmitter_0_sdata_0_out 1 9 1 NJ 450
+preplace netloc sdata_0_in_0_1 1 0 4 NJ 530 NJ 530 NJ 530 NJ
+preplace netloc axi_iic_0_gpo 1 9 1 NJ 700
+preplace netloc axi_iic_0_iic2intc_irpt 1 5 5 1750 630 NJ 630 NJ 630 2970J 600 3260
+preplace netloc processing_system7_0_M_AXI_GP0 1 7 1 2610 170n
+preplace netloc axi_smc_M00_AXI 1 4 5 1340 600 NJ 600 2060J 590 NJ 590 2900
+preplace netloc audio_formatter_0_m_axi_mm2s 1 5 1 1660 60n
+preplace netloc axi_mem_intercon_M00_AXI 1 6 1 N 150
+preplace netloc audio_formatter_0_m_axi_s2mm 1 5 1 1670 80n
+preplace netloc axi_smc_M01_AXI 1 3 6 990 610 NJ 610 NJ 610 NJ 610 NJ 610 2890
+preplace netloc axi_smc_M02_AXI 1 8 1 2920 350n
+preplace netloc audio_formatter_0_m_axis_mm2s 1 5 4 1680 370 NJ 370 NJ 370 NJ
+preplace netloc i2s_receiver_0_m_axis_aud 1 4 1 1290 360n
+preplace netloc axi_iic_0_IIC 1 9 1 NJ 660
+preplace netloc axi_smc_M03_AXI 1 8 1 2920 530n
+levelinfo -pg 1 0 200 470 760 1140 1500 1910 2350 2750 3120 3280
+pagesize -pg 1 -db -bbox -sgen -140 0 3420 760
+",
+   "Color Coded_ScaleFactor":"0.985621",
+   "Color Coded_TopLeft":"361,53",
+   "Default View_Layers":"/i2s_receiver_0_irq:true|/audio_formatter_0_irq_mm2s:true|/axi_iic_0_iic2intc_irpt:true|/i2s_transmitter_0_irq:true|/audio_formatter_0_irq_s2mm:true|/processing_system7_0_FCLK_CLK0:true|/processing_system7_0_FCLK_RESET0_N:true|/clk_wiz_0_clk_out1:true|/rst_clk_wiz_0_48M_peripheral_aresetn:true|/proc_sys_reset_1_peripheral_reset:true|/clk_wiz_0_clk_out2:true|/proc_sys_reset_0_peripheral_reset:true|",
+   "Default View_ScaleFactor":"0.378696",
+   "Default View_TopLeft":"-161,-217",
+   "Display-IntfAXI3":"true",
+   "Display-IntfAXI4Lite":"true",
+   "Display-IntfAXIStream":"true",
+   "Display-IntfOthers":"true",
+   "Display-IntfTypeAXIMM":"true",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeInterrupt":"true",
+   "Display-PortTypeOthers":"true",
+   "Display-PortTypeReset":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Grouping and No Loops_ScaleFactor":"0.503866",
+   "Grouping and No Loops_TopLeft":"859,-202",
+   "Interfaces View_Layers":"/processing_system7_0_FCLK_CLK0:false|/clk_wiz_0_clk_out1:false|/axi_iic_0_iic2intc_irpt:false|/proc_sys_reset_1_peripheral_reset:false|/proc_sys_reset_0_peripheral_reset:false|/audio_formatter_0_irq_s2mm:false|/processing_system7_0_FCLK_RESET0_N:false|/i2s_receiver_0_irq:false|/audio_formatter_0_irq_mm2s:false|/rst_clk_wiz_0_48M_peripheral_aresetn:false|/i2s_transmitter_0_irq:false|/clk_wiz_0_clk_out2:false|",
+   "Interfaces View_ScaleFactor":"0.746221",
+   "Interfaces View_TopLeft":"-141,-285",
+   "Interrupt and AXI-4 Lite_Layers":"/processing_system7_0_FCLK_CLK0:false|/clk_wiz_0_clk_out1:false|/clk_wiz_0_clk_out2:false|/processing_system7_0_FCLK_RESET0_N:false|/rst_clk_wiz_0_48M_peripheral_aresetn:false|/proc_sys_reset_1_peripheral_reset:false|/proc_sys_reset_0_peripheral_reset:false|/i2s_receiver_0_irq:true|/audio_formatter_0_irq_mm2s:true|/axi_iic_0_iic2intc_irpt:true|/i2s_transmitter_0_irq:true|/audio_formatter_0_irq_s2mm:true|",
+   "Interrupt and AXI-4 Lite_ScaleFactor":"0.908533",
+   "Interrupt and AXI-4 Lite_TopLeft":"-141,-327",
+   "No Loops_ScaleFactor":"0.497709",
+   "No Loops_TopLeft":"-141,-233",
+   "Reduced Jogs_Layers":"/processing_system7_0_FCLK_CLK0:true|/clk_wiz_0_clk_out1:true|/axi_iic_0_iic2intc_irpt:true|/proc_sys_reset_1_peripheral_reset:true|/proc_sys_reset_0_peripheral_reset:true|/audio_formatter_0_irq_s2mm:true|/processing_system7_0_FCLK_RESET0_N:true|/i2s_receiver_0_irq:true|/audio_formatter_0_irq_mm2s:true|/rst_clk_wiz_0_48M_peripheral_aresetn:true|/i2s_transmitter_0_irq:true|/clk_wiz_0_clk_out2:true|",
+   "Reduced Jogs_ScaleFactor":"0.359922",
+   "Reduced Jogs_TopLeft":"-142,-253",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 threadsafe
+#  -string -flagsOSRD
+preplace port iic_rtl -pg 1 -lvl 9 -x 2980 -y 570 -defaultsOSRD
+preplace port DDR -pg 1 -lvl 9 -x 2980 -y 250 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 9 -x 2980 -y 270 -defaultsOSRD
+preplace port port-id_adau_lrclk -pg 1 -lvl 0 -x -20 -y 950 -defaultsOSRD
+preplace port port-id_adau_bclk -pg 1 -lvl 0 -x -20 -y 930 -defaultsOSRD
+preplace port port-id_adau_dac_in -pg 1 -lvl 9 -x 2980 -y 850 -defaultsOSRD
+preplace port port-id_adau_adc_out -pg 1 -lvl 0 -x -20 -y 640 -defaultsOSRD
+preplace port port-id_adau_aud_mclk -pg 1 -lvl 9 -x 2980 -y 690 -defaultsOSRD
+preplace portBus adau_i2c_addr -pg 1 -lvl 9 -x 2980 -y 610 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 8 -x 2710 -y 330 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 470 -y 840 -swap {1 0 3 2 4} -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 190 -y 820 -defaultsOSRD
+preplace inst audio_formatter_0 -pg 1 -lvl 6 -x 1870 -y 330 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 4 -x 1130 -y 550 -defaultsOSRD
+preplace inst rst_clk_wiz_0_48M -pg 1 -lvl 3 -x 760 -y 750 -swap {3 0 2 4 1 5 6 7 8 9} -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 7 -x 2280 -y 360 -defaultsOSRD
+preplace inst proc_sys_reset_1 -pg 1 -lvl 4 -x 1130 -y 770 -swap {0 1 2 3 4 5 6 9 7 8} -defaultsOSRD
+preplace inst i2s_receiver_0 -pg 1 -lvl 5 -x 1500 -y 320 -defaultsOSRD
+preplace inst i2s_transmitter_0 -pg 1 -lvl 8 -x 2710 -y 840 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 7 -x 2280 -y 110 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 8 -x 2710 -y 590 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 9 20 920 360 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 2450J 670 2960
+preplace netloc proc_sys_reset_0_peripheral_reset 1 1 2 370 710 N
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 9 10 930 380J 760 580J 850 960 650 1340J 550 NJ 550 NJ 550 2470J 500 2950
+preplace netloc clk_wiz_0_clk_out1 1 2 6 560 550 950 330 1310 160 1660 170 2100 210 2440
+preplace netloc clk_wiz_0_locked 1 2 1 570 730n
+preplace netloc rst_clk_wiz_0_48M_peripheral_aresetn 1 3 5 930 460 1340 470 1700 480 2110 610 2470
+preplace netloc proc_sys_reset_1_peripheral_reset 1 4 4 1320 530 1710 540 2030J 850 NJ
+preplace netloc lrclk_in_0_1 1 0 8 NJ 950 NJ 950 560J 930 NJ 930 1330 910 NJ 910 NJ 910 NJ
+preplace netloc sclk_in_0_1 1 0 8 0J 940 NJ 940 NJ 940 NJ 940 1350 930 NJ 930 NJ 930 NJ
+preplace netloc xlconcat_0_dout 1 7 1 2470 110n
+preplace netloc i2s_transmitter_0_irq 1 6 3 2120 690 NJ 690 2950
+preplace netloc audio_formatter_0_irq_mm2s 1 6 1 2050 90n
+preplace netloc i2s_receiver_0_irq 1 5 2 1670J 160 2040
+preplace netloc audio_formatter_0_irq_s2mm 1 6 1 2080 130n
+preplace netloc i2s_transmitter_0_sdata_0_out 1 8 1 NJ 850
+preplace netloc sdata_0_in_0_1 1 0 5 20J 410 NJ 410 NJ 410 NJ 410 NJ
+preplace netloc axi_iic_0_gpo 1 8 1 NJ 610
+preplace netloc axi_iic_0_iic2intc_irpt 1 6 3 2130 510 NJ 510 2950
+preplace netloc clk_wiz_0_clk_out3 1 2 7 590J 650 940 290 1320 170 1650 180 2070J 650 2430 680 2960J
+preplace netloc processing_system7_0_M_AXI_GP0 1 3 6 960 10 NJ 10 NJ 10 NJ 10 NJ 10 2950
+preplace netloc axi_smc_M00_AXI 1 4 2 NJ 520 1690
+preplace netloc audio_formatter_0_m_axi_mm2s 1 6 1 2060 270n
+preplace netloc axi_mem_intercon_M00_AXI 1 7 1 2430 310n
+preplace netloc audio_formatter_0_m_axi_s2mm 1 6 1 2090 290n
+preplace netloc axi_smc_M01_AXI 1 4 1 1300 230n
+preplace netloc axi_smc_M02_AXI 1 4 4 NJ 560 NJ 560 NJ 560 2460
+preplace netloc audio_formatter_0_m_axis_mm2s 1 6 2 2040 770 NJ
+preplace netloc i2s_receiver_0_m_axis_aud 1 5 1 1680 240n
+preplace netloc axi_iic_0_IIC 1 8 1 NJ 570
+preplace netloc axi_smc_M03_AXI 1 4 4 NJ 580 NJ 580 NJ 580 2470
+preplace netloc processing_system7_0_DDR 1 8 1 NJ 250
+preplace netloc processing_system7_0_FIXED_IO 1 8 1 NJ 270
+levelinfo -pg 1 -20 190 470 760 1130 1500 1870 2280 2710 2980
+pagesize -pg 1 -db -bbox -sgen -160 0 3160 990
+"
+}
+{
+   "da_axi4_cnt":"12",
+   "da_board_cnt":"9",
+   "da_clkrst_cnt":"12",
+   "da_ps7_cnt":"1"
+}
