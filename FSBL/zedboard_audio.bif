@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]D:\UTU-teaching\VHDL\Zedboard_audio\zedboard_platform\export\zedboard_platform\sw\boot\fsbl.elf
+	D:\UTU-teaching\VHDL\Zedboard_audio\FSBL\_ide\bitstream\design_1_wrapper.bit
+	D:\UTU-teaching\VHDL\Zedboard_audio\FSBL\build\FSBL.elf
+}

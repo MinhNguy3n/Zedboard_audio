@@ -1,0 +1,21 @@
+create libxil.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/xadcps/src/libxadcps.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/usbps/src/libusbps.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/uartps/src/libuartps.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/ttcps/src/libttcps.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/sdps/src/libsdps.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/scuwdt/src/libscuwdt.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/scutimer/src/libscutimer.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/scugic/src/libscugic.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/qspips/src/libqspips.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/iic/src/libiic.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/i2stx/src/libi2stx.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/i2srx/src/libi2srx.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/gpiops/src/libgpiops.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/emacps/src/libemacps.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/dmaps/src/libdmaps.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/devcfg/src/libdevcfg.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/coresightps_dcc/src/libcoresightps_dcc.a
+addlib D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/audio_formatter/src/libaudio_formatter.a
+save
+end

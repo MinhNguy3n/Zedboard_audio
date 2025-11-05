@@ -1,0 +1,16 @@
+{
+  "name": "FSBL",
+  "type": "HOST",
+  "platform": "zedboard_platform",
+  "domain": "zedboard_fsbl_domain",
+  "cpuInstance": "ps7_cortexa9_0",
+  "cpuType": "cortex-a9",
+  "os": "standalone",
+  "configuration": {
+    "componentType": "HOST",
+    "hostToolchainConfigurations": []
+  },
+  "domainRealName": "zedboard_fsbl_domain",
+  "applicationFlow": "EMBEDDED",
+  "template": "zynq_fsbl"
+}

@@ -1,0 +1,4 @@
+domain_path: D:\UTU-teaching\VHDL\Zedboard_audio\zedboard_platform\zynq_fsbl\zynq_fsbl_bsp
+app_src_dir: S:\Xilinx\Vitis\2024.2\data\embeddedsw\lib\sw_apps\zynq_fsbl
+template: zynq_fsbl
+lang: c

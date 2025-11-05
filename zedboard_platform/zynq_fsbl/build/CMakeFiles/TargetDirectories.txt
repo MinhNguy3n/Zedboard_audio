@@ -1,0 +1,3 @@
+D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+D:/UTU-teaching/VHDL/Zedboard_audio/zedboard_platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir
